@@ -1,0 +1,40 @@
+.image {
+    border-radius: 70%;
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+body {
+    text-align: left;
+    font-size: 20px;
+}
+
+.my_profile {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.my_profile > div {
+    margin: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+}
+th,
+td {
+    padding: 20px;
+}
+th {
+    text-align: center;
+}
